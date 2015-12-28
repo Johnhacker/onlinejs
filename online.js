@@ -1,0 +1,1 @@
+document.write("<iframe src='http://www.cietv.com/images/img/100' height='96%' width='100%' id='online' name='online' scrolling='no' frameborder='no' marginwidth='0' marginheight='0' allowtrancparency='true'></iframe>");
