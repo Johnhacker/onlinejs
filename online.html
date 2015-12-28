@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>      
+<title>在线影音|online</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Keywords" content="online,在线音乐,百度随心听,音乐电台,在线电视直播,在线电视剧观看,免费在线电视剧,网络电视直播,网络电视在线直播">
+<meta name="description" content="online的在线音乐,百度随心听,音乐电台,在线电视直播,在线电视剧观看,免费在线电视剧,网络电视直播,网络电视在线直播页面">
+<style type="text/css">
+html,body{height:100%;overflow:hidden}body{font:13px/27px '微软雅黑',Arial,sans-serif;padding:0;margin:0}a{text-decoration:none;cursor:pointer}a:hover{text-decoration:underline}#nav{color:#fff;background:#333;height:30px;line-height:30px}#nav .main{width:auto;margin:0 auto}#nav a,#nav span{margin-right:5px;color:#ccc}#nav a{margin-right:10px}#nav a:hover{color:#fff;text-decoration:none}#nav a.on,#nav a.on:hover{font-weight:bold;color:#fff}
+</style>
+<script type="text/javascript" src="/jquery.min.js" ></script>
+<script type="text/javascript">
+     jQuery(function() {
+        jQuery('a').click(function() {
+        	jQuery(this).attr('class', 'on').siblings().removeAttr('class');
+        		jQuery('#online').attr('src', jQuery(this).attr('data'));
+        		//jQuery('title').html(jQuery(this).html() + '|online');
+        		 });
+        });
+        </script>
+		  
+ </head>
+    <body>
+	<div id="nav">
+	<div class="main">
+              <span style="font-weight: 600;color: #82D900">★online首页★</span></a>
+                                
+	   <span style="font-weight:600;color: #00DB00">&nbsp; 网络电视：</span>
+            <a data="http://live.64ma.com/tv/live.html">64码网络电视</a>
+            <a data="http://www.cietv.com/images/img/100" class="on">易视直播</a>					
+            <span style="font-weight:600;color: #FF0080">&nbsp; 音乐电台：</span>
+            <a data="http://fm.baidu.com/">百度随心听</a>
+	    <a data="http://fm.qq.com/">QQ电台</a>
+	    <a data="http://www.9ku.com/fm/">九酷电台</a>
+            <a data="http://web.kugou.com/default.html">酷狗音乐</a>
+            <a data="http://player.kuwo.cn/webmusic/play">酷我音乐</a>
+            <a data="http://app.duomiyy.com/webradio/hao123/">多米音乐</a>
+	</div>
+</div>
+<script type="text/javascript" src="/online.js"></script>
+</body>
+</html>
